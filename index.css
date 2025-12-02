@@ -1,0 +1,56 @@
+@font-face {
+    font-family: digital-7;
+    src: url(digital-7.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    padding-top: 175px;
+    display: flex;
+    justify-content: space-around;
+    background-color: 18244D;
+    height: 100%;
+    width: 100%;
+}
+
+.team-container{
+    color: white;
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    width: 180px;
+}
+
+.score{
+    color: #F94F6D;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: black;
+    height: 120px;
+    border-radius: 5px;
+    font-size : 100px;
+    padding-top: 10px;
+    font-family: 'digital-7', sans-serif;
+    width: 175px;
+}
+
+.team-header{
+    margin-bottom: 0px;
+}
+
+.score-btn{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #B0C4DF;
+    border-radius: 5px;
+    font-family: 'digital-7', sans-serif;
+    width: 50px;
+    height: 50px;
+    background-color: 18244D;
+    color: #B0C4DF;
+    font-size: 20px;
+}
